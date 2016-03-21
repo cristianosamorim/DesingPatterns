@@ -11,7 +11,7 @@ namespace Builder
 		static void Main(string[] args)
 		{
 			NotaFiscalBuilder criador = new NotaFiscalBuilder();
-			criador.ParaEmpresa("Voonder Comercio Ltda.")
+			criador.ParaEmpresa("Voonder Comercio Ltda....")
 				   .ComCnpj("176.176.569.52")
 				   .NaDataAtual()
 				   .ComItem(new ItemDaNota("item 1", 100.0))
