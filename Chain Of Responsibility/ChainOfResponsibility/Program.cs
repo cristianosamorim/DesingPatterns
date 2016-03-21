@@ -20,8 +20,8 @@ namespace ChainOfResponsibility
 			orcamento.AdicionaItem(new Item("Borracha", 250));
 			orcamento.AdicionaItem(new Item("Microndas", 250));
 
-			double desconto = calculador.Calcula(orcamento);
-			Console.WriteLine(desconto);
+			var desconto = calculador.Calcula(orcamento);
+            Console.WriteLine(desconto);
 
 			Console.ReadKey();
 		}
